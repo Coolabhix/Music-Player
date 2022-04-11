@@ -34,7 +34,7 @@ function setSong(e) {
         const source = document.getElementById('source')
         source.src = "songs/" + e.target.innerText + ".mp3";
         const img = document.getElementById('pic');
-        img.setAttribute("src", "Player/images/song-covers/" + e.target.innerText + ".jpg");
+        img.setAttribute("src", "images/Song-covers/" + e.target.innerText + ".jpg");
 
         document.querySelector('#currentSong').innerText = `Now Playing: ${e.target.innerText}`
 
